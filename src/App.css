@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: wheat;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input{
+  padding: 2px 10px;
+}
+button{
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: bold;
+  padding: 3px 8px;
+}
+.listBox{
+  border: 2px solid silver;
+  height: auto;
+  width: 600px;
+  margin-top: 5%;
+  padding: 10px;
+  /* display: none; */
+}
+.list{
+  border: 1px solid gray;
+  height: 40px;
+  width: 580px;
+  padding: 1px 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tickBtn{
+  background-color: green;
+  /* text-decoration: line-through; */
+}
+.delBtn{
+  background-color: red;
+}
